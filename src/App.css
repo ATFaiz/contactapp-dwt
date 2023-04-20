@@ -1,0 +1,512 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* Creat Contact - CSS */
+.c-container{
+	max-width: 390px;
+	margin: 0 auto;
+	background-color: #274650;
+	min-height: 100vh;
+  font-family: 'Inter', sans-serif;
+  margin-top: 2px;
+  padding-top: 1px;
+  margin-bottom: 50px;
+  padding-bottom: 50px;
+  border: 2px;
+  border-radius: 5px;
+}
+
+.c-contact{
+	color: white;
+	background: linear-gradient(90deg, rgb(21, 61, 87) 0%, rgb(41, 144, 175) 100%);	
+	padding: 2em 0; 
+}
+.c-back-btn{
+	color: #fff;
+	font-size: 1.7em;
+	padding-left: 1em;
+}
+.c-contact-info{
+	display: flex;
+	flex-flow: column;
+	align-items: center;
+}
+
+.c-info{
+	padding: 1.5em;
+	background: #274650;
+}
+
+
+.c-info-line{
+	display: flex;
+	color: #fff;
+	width: 90%;
+	margin: 0 auto;
+	padding: 1em 2em;
+	margin-top: 2em;
+	border-radius: 20px;
+	box-shadow: inset 6px 6px 12px #0f2b35, 
+            inset -6px -6px 12px #274650;
+}
+.c-type{
+	border: none;
+	background: none;
+	padding-left: 2em;
+	font-size: 1.2em;
+	color: #fff;
+	outline: none;
+}
+.c-button-container{
+	background: #274650;
+	/* background-color: #313438; */
+	padding: 0.5em 3.5em;
+	color: #fff;
+}
+.cc-button-container{
+	background: #274650;
+	/* background-color: #313438; */
+	padding: 0.5em 3.5em;
+	color: #fff;
+}
+.cc-info-line{
+	display: flex;
+	color: #fff;
+	width: 90%;
+	margin: 0 auto;
+	padding: 1em;
+	/* margin-top: 1em; */
+	border-radius: 20px;
+	box-shadow: inset 6px 6px 12px #0f2b35, 
+            inset -6px -6px 12px #274650;
+}
+.c-update{
+	display: flex;
+	color: #fff;
+	width: 90%;
+	margin: 0 auto;
+	align-items: center;
+	padding: 1em 2em;
+	border-radius: 20px;
+	box-shadow:  6px 6px 12px #18343d,
+             -6px -6px 12px #274650;
+}
+.c-button{
+	background: #274650;
+	 border: none;
+	 color: #fff;
+	 font-size: 1em;
+	 padding-left: 1.5em;
+	 outline: none;
+	cursor: pointer;
+
+}
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+.c-icon-gradient{
+	background: linear-gradient(90deg, rgb(5, 170, 235) 0%, rgb(31, 148, 194) 100%);
+	border-radius: 100px;
+	font-size: 1.5em;
+	padding: .5em;
+}
+
+/* Main Page CSS */
+.m-container{
+	max-width: 390px;
+	margin: 0 auto;
+	background-color: #274650;
+	height: 30vh;
+	font-family: 'Inter', sans-serif;
+	margin-top: 2px;
+	padding-top: 1px;
+	margin-bottom: 40px;
+	padding-bottom: 50px;
+	border: 5px;
+	border-color: black;
+	border-radius: 5px;
+}
+.m-header{
+	display: flex;
+	justify-content: space-evenly;
+	color: white;
+	background: linear-gradient(90deg, rgb(21, 61, 87) 0%, rgb(41, 144, 175) 100%);	
+	padding: 3em 0; 
+	align-items: center;
+}
+
+.m-contact-search{
+	font-size: 1.2em;
+	padding:.3em .3em;
+	border-radius: 100px;
+	border:1px solid white;
+	outline: none;
+	text-align: center;
+}
+.m-add{
+	text-decoration: none;
+	color: #fff;
+	font-size: 1.5em;
+}
+.m-contacts-library{
+	background: #274650;
+
+}
+.m-contact-name{
+	color: #fff;
+	font-size: 1.2em;
+}
+.m-list__item{
+	list-style: none;
+	margin-top: 20px;
+	
+	
+}
+.m-list{
+	margin-top: 50px;
+	text-align: left;
+	margin-left: 30px;
+}
+.m-bg{
+	color: #f0efef;
+	width: 9em;
+	text-align: center;
+	border-radius: 100px;
+	border-top-left-radius: 0;
+	background-color: #228abb;
+	padding-top: 3px;
+	padding-right: 5px;
+	padding-bottom: 3px;
+	padding-left: 5px;
+}
+.m-contact-section{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0 1.5em;
+	transition: 0.3s;
+}
+.m-contact-section:hover{
+	background-color: #276a85;
+}
+.m-contacts-list{
+	margin: 0;
+	padding: 0;
+	width: 100%;
+}
+hr{
+	border: 1px solicontactd #494a4b;
+}
+i{
+	color: #fff;
+	font-size: 1em;
+}
+.m-text{
+	padding-right: 2em;
+	max-width: 230px;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+.m-img {
+	display: block;
+	width: 100px;
+	height: 100px;
+	/* border-radius: 50%; */
+	margin: 0 auto 20px;
+	background: #ccc;
+}
+.m-btn {
+	text-align-last: right;
+	display: inline-block;
+	
+	position: relative;
+	margin-top: 35px;
+	margin-left: 30px;
+	text-align: center;
+	
+}
+/* .m-preview img {
+	width: px;
+	height: 50px;
+	border-radius: 50%;
+	background: #ccc;
+} */
+.m-p{
+	padding-right: 10px;
+	
+}
+.m-p2{
+	color: #fff;
+	text-align: center;
+	margin-top: 50px;
+}
+.pagination {
+	display: flex;
+	justify-content: center;
+	color: #fff;
+	font-weight: bold;
+	font-size: large;
+	
+	
+  }
+
+  .m-active-link {
+	background-color: #007bff;
+	color: #fff;
+	border-color: #007bff;
+	max-height: 25px;
+	
+  }
+
+/* Edit Contacts - CSS */
+.e-container{
+	max-width: 390px;
+	margin: 0 auto;
+	background-color: #274650;
+	min-height: 100vh;
+  font-family: 'Inter', sans-serif;
+  margin-top: 2px;
+  padding-top: 1px;
+  margin-bottom: 100px;
+  padding-bottom: 60px;
+  border: 2px;
+  border-radius: 5px;
+}
+.e-contact{
+	color: white;
+	background: linear-gradient(90deg, rgb(21, 61, 87) 0%, rgb(41, 144, 175) 100%);		
+	padding: 2em 0; 
+}
+.e-back-btn{
+	color: #fff;
+	font-size: 1.7em;
+	padding-left: 1em;
+}
+.e-contact-info{
+	display: flex;
+	flex-flow: column;
+	align-items: center;
+}
+.e-info{
+	padding: 1.5em;
+}
+
+.e-info-line{
+	display: flex;
+	color: #fff;
+	width: 90%;
+	margin: 0 auto;
+	padding: 1em 2em;
+	margin-top: 2em;
+	border-radius: 20px;
+	box-shadow: inset 6px 6px 12px #0a1c22, 
+            inset -6px -6px 12px #274650;
+}
+.e-type{
+	border: none;
+	background: none;
+	padding-left: 2em;
+	font-size: 1.2em;
+	color: #fff;
+	outline: none;
+}
+.f-type{
+	border: none;
+	background: none;
+	padding-left: 1em;
+	font-size: 1em;
+	color: #fff;
+	outline: none;
+}
+.e-button-container{
+	background-color:#274650;
+	padding: 0em 3.5em;
+	color: #fff;
+}
+.e-update{
+	display: flex;
+	color: #fff;
+	width: 90%;
+	margin: 0 auto;
+	align-items: center;
+	padding: 1em 2em;
+	border-radius: 20px;
+	box-shadow:  6px 6px 12px #0b1f24, 
+             -6px -6px 12px #274650;
+}
+.e-button{
+	 background-color: #274650;
+	 border: none;
+	 color: #fff;
+	 font-size: 1em;
+	 padding-left: 1em;
+	 outline: none;
+	cursor: pointer;
+
+}
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+.e-icon-gradient{
+	background: linear-gradient(90deg, rgb(5, 170, 235) 0%, rgb(31, 148, 194) 100%);
+	border-radius: 100px;
+	font-size: 1.5em;
+	padding: .5em;
+}
+
+/* Show Contact CSS */
+
+.s-container{
+	max-width: 390px;
+	margin: 0 auto;
+	background-color: #274650;
+	min-height: 100vh;
+  font-family: 'Inter', sans-serif;
+  margin-top: 2px;
+  padding-top: 1px;
+  margin-bottom: 50px;
+  padding-bottom: 50px;
+  border: 2px;
+  border-radius: 5px;
+}
+.s-contact{
+	color: white;
+	background: linear-gradient(90deg, rgb(21, 61, 87) 0%, rgb(41, 144, 175) 100%);	
+	padding: 2em 0; 
+}
+.s-back-btn{
+	color: #fff;
+	font-size: 1.7em;
+	padding-left: 1em;
+}
+.s-contact-info{
+	display: flex;
+	flex-flow: column;
+	align-items: center;
+}
+
+.s-info{
+	padding: 1.5em;
+}
+
+.s-info-line{
+	display: flex;
+	color: #fff;
+	width: 90%;
+	margin: 0 auto;
+	padding: 1em 2em;
+	margin-top: 2em;
+	border-radius: 20px;
+	box-shadow: inset 6px 6px 12px #0d242c, 
+            inset -6px -6px 12px #274650;
+}
+.s-info-line p {
+	text-overflow:ellipsis;
+	overflow:hidden;
+	text-align: left;
+  }
+.s-type{
+	border: none;
+	background: none;
+	padding-left: 0.5em;
+	font-size: 1.2em;
+	color: #fff;
+	outline: none;
+}
+.ss-type{
+	border: none;
+	background: none;
+	padding-left: 1em;
+	font-size: 1em;
+	color: #fff;
+	outline: none;
+}
+.s-button-container{
+	background-color: #274650;
+	padding: 0.5em 3.5em;
+	color: #fff;
+}
+.s-update{
+	display: flex;
+	color: #fff;
+	width: 90%;
+	margin: 0 auto;
+	align-items: center;
+	padding: 1em 2em;
+	border-radius: 20px;
+	box-shadow:  6px 6px 12px #0b232b, 
+             -6px -6px 12px #274650;
+}
+.s-button{
+	 background-color: #274650;
+	 border: none;
+	 color: #fff;
+	 font-size: 1em;
+	 padding-left: 1.5em;
+	 outline: none;
+	cursor: pointer;
+
+}
+
+.s-icon-gradient{
+	background: linear-gradient(90deg, rgb(5, 170, 235) 0%, rgb(31, 148, 194) 100%);
+	border-radius: 100px;
+	font-size: 1.5em;
+	padding: .5em;
+}
+
+.s-img {
+	display: block;
+	width: 180px;
+	height: 180px;
+	border-radius: 50%;
+	margin: 0 auto 20px;
+	background: #ccc;
+}
+.s-btn {
+	text-align-last: right;
+	display: inline-block;
+	
+	position: relative;
+	margin-top: 35px;
+	margin-left: 30px;
+	text-align: center;
+	
+}
