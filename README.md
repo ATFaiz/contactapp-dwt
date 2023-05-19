@@ -1,6 +1,6 @@
 # Short Description of ConactList App
 
-1.	Contact List App is a web application built using React.js.
+1.	ContactList App is a web application built using React.js.
 3.	It allows users to create, view, edit, and delete contacts.
 4.	The app utilizes IndexedDB for data storage, providing offline access and data persistence.
 5.	It incorporates features such as camera integration for adding contact profile pictures.
